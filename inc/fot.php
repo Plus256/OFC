@@ -1,4 +1,4 @@
-<div id="footer">
+<footer id="footer">
 	<div class="wrapper">
         <div id="fot_soc">
             <a href="#" target="_NEW"><img src="gra/facebook.png" /></a>
@@ -18,7 +18,7 @@
     	<div class="spacer"></div>
     </div>
     <div id="fb-root"></div>
-</div>
+</footer>
 </body>
 </html>
 <?php
