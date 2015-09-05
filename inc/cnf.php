@@ -20,6 +20,7 @@ $conn=mysqli_connect($host, $user, $pwd, $db, $port) or die(mysqli_error());
 /*end of remote*/
 $short_name="OFC";
 $full_name="Our Forgotten Children";
+$slogan="Child Play Therapy";
 $logo="gra/logo.png";
 $noscript="Enable JavaScript in your browser to have the best experience at ".$short_name;
 ?>

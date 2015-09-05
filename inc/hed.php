@@ -13,13 +13,7 @@ require_once("inc/fun.php");
 <link rel="shortcut icon" href="gra/favicon.ico" type="image/x-icon">
 <link rel="stylesheet" type="text/css" href="css/glb.css" />
 <link rel="stylesheet" type="text/css" href="css/mob.css" />
-<!--[if IE]>
-<link rel="stylesheet" type="text/css" href="css/ie.css" />
-<![endif]-->
-<!--[if !IE]><!-->
-<link rel="stylesheet" type="text/css" href="css/nie.css" />
-<!--<![endif]-->
-<title><?php echo $full_name; ?></title>
+<title><?php echo $full_name." | ".$slogan; ?></title>
 <!--Plus256 Network, Ltd-->
 <!--www.plus256.com-->
 <script type="text/javascript" src="js/fun.js"></script>
