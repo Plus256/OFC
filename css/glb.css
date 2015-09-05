@@ -36,6 +36,10 @@ a:hover {
 	position:fixed;
 	width:100%;
 	z-index:1;
+	transition:all 0.25s linear 0s;
+	-moz-transition:all 0.25s linear 0s;
+	-webkit-transition:all 0.25s linear 0s;
+	-o-transition:all 0.25s linear 0s;
 	/* to be called when the user scrolls down and removed when they're back to top
 	background:#FBAE17;
 	box-shadow:0 5px 5px rgba(0, 0, 0, 0.2);
