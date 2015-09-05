@@ -1265,7 +1265,6 @@ table#fees_table td:first-child{
 }
 
 #projects_main{
-	position:relative;
 	text-align:center;
 }
 
@@ -1325,6 +1324,7 @@ a.project_item p{
 
 #about{
 	background:#F5F5F5;
+	padding-top:5em;
 }
 
 #about_thumb{
