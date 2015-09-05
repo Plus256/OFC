@@ -6,11 +6,11 @@
         </div>
         <nav id="menu">
         	<ul>
-              <li><a href="./#love">LOVE</a></li>
               <li><a href="./#play">PLAY</a></li>
+              <li><a href="./#projects">PROJECTS</a></li>
               <li><a href="./#donate">DONATE</a></li>
-              <li><a href="./#contact">CONTACT</a></li>
               <li><a href="./#about">ABOUT</a></li>
+              <li><a href="./#contact">CONTACT</a></li>
             </ul>
         </nav>
         <!--Begin Mobile Menu-->
@@ -18,11 +18,11 @@
             <div id="mobile_menu_icon"><div class="mobile_menu_icon_stripe"></div><div class="mobile_menu_icon_stripe"></div><div class="mobile_menu_icon_stripe"></div></div>
             <div id="mobile_menu_container">
                 <ul>
-                  <li><a href="./#love">LOVE</a></li>
                   <li><a href="./#play">PLAY</a></li>
+                  <li><a href="./#projects">PROJECTS</a></li>
                   <li><a href="./#donate">DONATE</a></li>
-                  <li><a href="./#contact">CONTACT</a></li>
                   <li><a href="./#about">ABOUT</a></li>
+                  <li><a href="./#contact">CONTACT</a></li>
                 </ul>
                 <div class="spacer"></div>
             </div>

@@ -7,11 +7,11 @@
             <div class="spacer"></div>
         </div>
     	<div id="fot_links">
-            <a href="./#love" id="about_fot_link">Love</a>
-            <a href="./#play" id="contact_fot_link">Play</a>
-            <a href="./#donate" id="ad_fot_link">Donate</a>
-            <a href="./#contact" id="contr_fot_link">Contact</a>
-						<a href="./#about" id="contr_fot_link">About</a>
+            <a href="./#play" id="play_fot_link">Play</a>
+						<a href="./#projects" id="projects_fot_link">Projects</a>
+            <a href="./#donate" id="donate_fot_link">Donate</a>
+						<a href="./#about" id="about_fot_link">About</a>
+						<a href="./#contact" id="contact_fot_link">Contact</a>
             <div class="spacer"></div>
         </div>
         <div id="copyright">Copyright &copy; <?php echo date('Y')." <a href='./'>".$full_name."</a>"; ?></div>
