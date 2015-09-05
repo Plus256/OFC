@@ -31,15 +31,16 @@ a:hover {
 
 #banner {
 	padding:0 10px;
-	background:#fbae17;
 	height:5em;
 	overflow-y:visible;
 	position:fixed;
 	width:100%;
+	/* to be called when the user scrolls down and removed when they're back to top
+	background:#FBAE17;
 	box-shadow:0 5px 5px rgba(0, 0, 0, 0.2);
 	-moz-box-shadow:0 5px 5px rgba(0, 0, 0, 0.2);
 	-webkit-box-shadow:0 5px 5px rgba(0, 0, 0, 0.2);
-	-o-box-shadow:0 5px 5px rgba(0, 0, 0, 0.2);
+	-o-box-shadow:0 5px 5px rgba(0, 0, 0, 0.2);*/
 }
 
 #logo{
@@ -47,18 +48,24 @@ a:hover {
 	height:5em;
 }
 
-#logo:before{    /* create a full-height inline block pseudo=element */
-    content:' ';
-    display:inline-block;
-    vertical-align:middle;  /* vertical alignment of the inline element */
-    height:100%;
+svg#logo{
+
 }
 
-#logo img{
-	width:4em;
-	height:auto;
-	display:inline-block;
-    vertical-align:middle;
+svg#logo #letter{
+	fill:#FFF;
+}
+
+svg#logo #heart{
+	fill:#FFF;
+}
+
+svg#logo:hover #heart{
+	fill:#F00;
+}
+
+svg#logo:hover #letter{
+	fill:#FBAE17;
 }
 
 #menu{
@@ -157,7 +164,7 @@ a:hover {
 }
 
 #mobile_menu ul li a:hover{
-	background:#fbae17;
+	background:#FBAE17;
 	color:#FFF;
 }
 
@@ -1322,29 +1329,33 @@ a.project_item p{
 	height:auto;
 }
 
-#about{
+#play{
 	background:#F5F5F5;
-	padding-top:5em;
 }
 
-#about_thumb{
+#play_thumb{
 	float:left;
 	width:50%;
 }
 
-#about_thumb img{
+#play_thumb img{
 	display:block;
 	width:100%;
 }
 
-#about_text{
+#play_text, #about_text{
 	padding:3em 5em;
 	overflow:hidden;
 }
 
-#about_text_header{
+.section_text_header{
 	font-size:300%;
 	font-weight:200;
 	color:#555;
 	margin-bottom:1em;
+}
+
+video#hero_video{
+	width:100%;/*this applies to the poster image as well*/
+	display:block;/*eliminate undesired bottom margin*/
 }

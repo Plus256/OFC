@@ -20,7 +20,7 @@ require_once("inc/fun.php");
 <script src="//use.typekit.net/nww6oyv.js"></script>
 <script>try{Typekit.load();}catch(e){}</script>
 </head>
-<body onkeydown="getKey(event);">
+<body>
 <noscript id="noscript"><?php echo $noscript; ?></noscript>
 <div id="dialog_box_overlay"></div>
 <div id="dialog_box">
