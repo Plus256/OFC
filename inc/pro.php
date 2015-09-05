@@ -1,6 +1,6 @@
 <section id="projects">
     <div class="wrapper">
-      <div id="projects_header">
+      <div id="projects_header" class="section_text_header">
         Meet the Children
       </div>
       <div id="projects_main">

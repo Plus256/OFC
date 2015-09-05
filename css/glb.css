@@ -1268,8 +1268,7 @@ table#fees_table td:first-child{
 #projects_header{
 	padding:1em 0px;
 	text-align:center;
-	font-size:200%;
-	color:#555;
+	margin-bottom:0;
 }
 
 #projects_main{
@@ -1344,7 +1343,7 @@ a.project_item p{
 	width:100%;
 }
 
-#play_text, #about_text{
+#play_text, #about_text, #involve_text{
 	padding:3em 5em;
 	overflow:hidden;
 }
@@ -1359,4 +1358,8 @@ a.project_item p{
 video#hero_video{
 	width:100%;/*this applies to the poster image as well*/
 	display:block;/*eliminate undesired bottom margin*/
+}
+
+#involve{
+	background:#EFEFEF;
 }

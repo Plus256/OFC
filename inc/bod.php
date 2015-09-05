@@ -4,5 +4,6 @@
   require_once("inc/about.php");
   require_once("inc/play.php");
   require_once("inc/pro.php");
+  require_once("inc/involve.php");
   ?>
 </main>
