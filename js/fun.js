@@ -1,10 +1,14 @@
 window.onload=initAll;
 function initAll(){
+	//window.innerWidth != document.body.clientWidth
+	//window.innerWidth corresponds to css view port width
+	//alert("window.innerWidth: "+window.innerWidth+" & document.body.clientWidth: "+document.body.clientWidth);
+	var vw=window.innerWidth;
 	var y;
 	window.onscroll=function(){
 		y=window.pageYOffset;
 		//console.log(y);
-		if(y>=500){
+		if(y>=500 && vw>=980){
 			document.getElementById("banner").style.boxShadow="0 5px 5px rgba(0, 0, 0, 0.2)";
 			document.getElementById("banner").style.background="rgba(255, 255, 255, 0.99)";
 			document.getElementById("heart").style.fill="#555";
