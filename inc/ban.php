@@ -15,8 +15,9 @@
         </nav>
         <!--Begin Mobile Menu-->
         <nav id="mobile_menu">
-            <div id="mobile_menu_icon"><div class="mobile_menu_icon_stripe"></div><div class="mobile_menu_icon_stripe"></div><div class="mobile_menu_icon_stripe"></div></div>
+            <div><?php echo file_get_contents("gra/ic_menu.svg"); ?></div>
             <div id="mobile_menu_container">
+              <div id="menu_drawer_cancel"><?php echo file_get_contents("gra/ic_cancel.svg"); ?></div>
                 <ul>
                   <li><a href="./#play">PLAY</a></li>
                   <li><a href="./#projects">PROJECTS</a></li>
