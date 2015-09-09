@@ -1,7 +1,7 @@
 <section id="play">
     <div class="wrapper">
       <div id="play_thumb">
-        <img src="img/section_img.jpg" />
+        <img src="img/section_child_play.jpg" />
       </div>
       <div id="play_text">
         <div class="section_text_header">

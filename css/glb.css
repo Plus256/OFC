@@ -58,11 +58,11 @@ svg#logo{
 }
 
 svg#logo #letter{
-	fill:#FFF;
+	fill:#555;
 }
 
 svg#logo #heart{
-	fill:#FFF;
+	fill:#555;
 }
 
 svg#logo:hover #heart{
@@ -91,13 +91,13 @@ svg#logo:hover #letter{
 }
 
 #menu ul li a{
-	color:#FFF;
+	color:#555;
 	text-decoration:none;
 	padding-bottom:10px;
 }
 
 #menu ul li a:hover{
-	border-bottom:3px solid #FFF;
+	border-bottom:3px solid #555;
 }
 
 svg#mobile_menu_icon{
@@ -1248,27 +1248,27 @@ a.project_item{
 }
 
 a#environmentalist{
-	background:#778410;
+	background:#baaa79;
 }
 
 a#shy_boy{
-	background:#C3233D;
+	background:#007189;
 }
 
 a#smart_boy{
-	background:#9A7C7E;
+	background:#9fb0c2;
 }
 
 a#bright_boys{
-	background:#0085F1;
+	background:#f95f55;
 }
 
 a#cute_girl{
-	background:#FE982C;
+	background:#759741;
 }
 
 a#laugh_star{
-	background:#A26294;
+	background:#867da8;
 }
 
 a.project_item h4{
