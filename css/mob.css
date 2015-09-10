@@ -26,6 +26,14 @@
 		clear:both;
 		margin-right:0;
 	}
+
+	.staff_item_text_header{
+		font-size:200%;
+	}
+
+	.staff_item_text{
+		padding:1em;
+	}
 }
 
 /* tablets portrait*/
@@ -50,6 +58,14 @@
 		float:none;
 		clear:both;
 		margin-right:0;
+	}
+
+	.staff_item_text_header{
+		font-size:200%;
+	}
+
+	.staff_item_text{
+		padding:1em;
 	}
 }
 
@@ -135,5 +151,19 @@
 
 	a.project_item p{
 		padding-bottom:10px;
+	}
+
+	.staff_item_thumb{
+		float:none;
+		width:auto;
+	}
+
+	.staff_item_text{
+		padding:1em;
+		text-align:center;
+	}
+
+	.staff_item_text_header{
+		font-size:200%;
 	}
 }

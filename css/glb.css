@@ -1380,6 +1380,7 @@ svg#cancel{
 
 .staff_item_thumb{
 	float:left;
+	width:50%;
 }
 
 .staff_item_thumb img{
@@ -1396,4 +1397,5 @@ svg#cancel{
 .staff_item_text_header{
 	font-size:250%;
 	font-weight:200;
+	color:#555;
 }
