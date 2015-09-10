@@ -9,7 +9,7 @@
               <li><a href="./#play">PLAY</a></li>
               <li><a href="./#projects">PROJECTS</a></li>
               <li><a href="./#donate">DONATE</a></li>
-              <li><a href="./#about">ABOUT</a></li>
+              <li><a href="./staff">ABOUT</a></li>
               <li><a href="./#contact">CONTACT</a></li>
             </ul>
         </nav>
@@ -22,7 +22,7 @@
                   <li><a href="./#play">PLAY</a></li>
                   <li><a href="./#projects">PROJECTS</a></li>
                   <li><a href="./#donate">DONATE</a></li>
-                  <li><a href="./#about">ABOUT</a></li>
+                  <li><a href="./staff">ABOUT</a></li>
                   <li><a href="./#contact">CONTACT</a></li>
                 </ul>
                 <div class="spacer"></div>
