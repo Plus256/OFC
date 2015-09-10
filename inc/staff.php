@@ -15,7 +15,7 @@
             Collins Wagaba
           </section>
           <section class="staff_item_text_main">
-            <p>Meet the cool guy that creates awesome stuff.</p>
+            <p>Meet the cool guy that creates cool stuff.</p>
             <p>Collins is a programmer, with a deep passion for security.<br />With a Computer Science background, he heads IT at OFC.</p>
             <p>If not writing code, he's playing guitar, or football.</p>
           </section>
