@@ -19,7 +19,7 @@ function initAll(){
 		y=window.pageYOffset;
 		//console.log(y);
 		//desktop
-		if(y>=500 && vw>=980){
+		if(y>=50 && vw>=980){
 			document.getElementById("banner").style.boxShadow="0 5px 5px rgba(0, 0, 0, 0.2)";
 			document.getElementById("banner").style.background="rgba(255, 255, 255, 0.99)";
 			document.getElementById("heart").style.fill="#555";
@@ -57,7 +57,7 @@ function initAll(){
 			//alert("Add Background");
 		}
 		//tablet
-		else if(y>=100 && vw>640 && vw<980){
+		else if(y>=50 && vw>640 && vw<980){
 			document.getElementById("banner").style.boxShadow="0 5px 5px rgba(0, 0, 0, 0.2)";
 			document.getElementById("banner").style.background="rgba(255, 255, 255, 0.99)";
 			document.getElementById("heart").style.fill="#555";
