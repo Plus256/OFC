@@ -34,6 +34,10 @@
 	.staff_item_text{
 		padding:1em;
 	}
+
+	#staff_header{
+		padding:3.5em 0 1em 0;
+	}
 }
 
 /* tablets portrait*/
@@ -66,6 +70,10 @@
 
 	.staff_item_text{
 		padding:1em;
+	}
+
+	#staff_header{
+		padding:3.5em 0 1em 0;
 	}
 }
 
@@ -165,5 +173,9 @@
 
 	.staff_item_text_header{
 		font-size:200%;
+	}
+
+	#staff_header{
+		padding:3.5em 0 1em 0;
 	}
 }
