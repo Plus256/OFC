@@ -32,6 +32,16 @@ function initAll(){
 				document.getElementById("heart").style.fill="#555";
 				document.getElementById("letter").style.fill="#555";
 			}, false);
+			var links=document.getElementById("banner").getElementsByTagName("a");
+			for(var i=0; i<links.length; i++){
+				links[i].style.color="#555";
+				links[i].addEventListener("mouseover", function(){
+					this.style.borderBottom="3px solid #555";
+				});
+				links[i].addEventListener("mouseout", function(){
+					this.style.borderBottom="none";
+				});
+			}
 		}
 		//mobile
 		else if(y>=50 && vw<=640){
@@ -86,29 +96,29 @@ function initAll(){
 			//alert("Remove Background");
 			document.getElementById("banner").style.boxShadow="none";
 			document.getElementById("banner").style.background="none";
-			document.getElementById("heart").style.fill="#555";
-			document.getElementById("letter").style.fill="#555";
-			document.getElementById("mobile_menu_icon").style.fill="#555";
+			document.getElementById("heart").style.fill="#F00";
+			document.getElementById("letter").style.fill="#FBAE17";
+			document.getElementById("mobile_menu_icon").style.fill="#FBAE17";
 			document.getElementById("logo").addEventListener("mouseover", function(){
+				document.getElementById("heart").style.fill="#FFF";
+				document.getElementById("letter").style.fill="#FFF";
+			}, false);
+			document.getElementById("logo").addEventListener("mouseout", function(){
 				document.getElementById("heart").style.fill="#F00";
 				document.getElementById("letter").style.fill="#FBAE17";
 			}, false);
-			document.getElementById("logo").addEventListener("mouseout", function(){
-				document.getElementById("heart").style.fill="#555";
-				document.getElementById("letter").style.fill="#555";
-			}, false);
 			document.getElementById("mobile_menu_icon").addEventListener("mouseover", function(){
-				this.style.fill="#FBAE17";
+				this.style.fill="#FFF";
 			}, false);
 			document.getElementById("mobile_menu_icon").addEventListener("mouseout", function(){
-				this.style.fill="#555";
+				this.style.fill="#FBAE17";
 			}, false);
 			if(vw>640){
 				var links=document.getElementById("banner").getElementsByTagName("a");
 				for(var i=0; i<links.length; i++){
-					links[i].style.color="#555";
+					links[i].style.color="#FFF";
 					links[i].addEventListener("mouseover", function(){
-						this.style.borderBottom="3px solid #555";
+						this.style.borderBottom="3px solid #FFF";
 					});
 					links[i].addEventListener("mouseout", function(){
 						this.style.borderBottom="none";

@@ -57,19 +57,19 @@ svg#logo{
 
 }
 
-svg#logo #letter{
-	fill:#555;
-}
-
-svg#logo #heart{
-	fill:#555;
+svg#logo:hover #letter{
+	fill:#FFF;
 }
 
 svg#logo:hover #heart{
+	fill:#FFF;
+}
+
+svg#logo #heart{
 	fill:#F00;
 }
 
-svg#logo:hover #letter{
+svg#logo #letter{
 	fill:#FBAE17;
 }
 
@@ -91,13 +91,13 @@ svg#logo:hover #letter{
 }
 
 #menu ul li a{
-	color:#555;
+	color:#FFF;
 	text-decoration:none;
 	padding-bottom:10px;
 }
 
 #menu ul li a:hover{
-	border-bottom:3px solid #555;
+	border-bottom:3px solid #FFF;
 }
 
 svg#mobile_menu_icon{
@@ -105,10 +105,11 @@ svg#mobile_menu_icon{
 	height:5em;
 	width:2em;
 	padding:0 1em;
+	fill:#FBAE17;
 }
 
 svg#mobile_menu_icon:hover{
-	fill:#FBAE17;
+	fill:#FFF;
 }
 
 #mobile_menu{
