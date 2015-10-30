@@ -78,6 +78,10 @@
 }
 
 @media only screen and (max-width:640px){
+	svg#logo{
+		height:5em;
+	}
+
 	#carousel_container{
 		display:none;
 	}

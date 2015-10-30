@@ -5,12 +5,14 @@
       </div>
       <div id="about_text">
         <div class="section_text_header">
-          Passionate Christian based Organisation.
+          Our Forgotten Children
         </div>
         <div class="section_text_main">
-          <p>OFC is a small and passionate family Christian based organisation supporting and strengthening the emotional wellbeing and development of children through the unique world of Play and Creative Therapy.</p>
-          <p>We seek out the most vulnerable and marginalised children in the greatest need of care and then provide support to help them reach their potential in life.</p>
-          <p>We believe that all children deserve a happy and healthy childhood where Play is the centre of their development.</p>
+          <p>We bring back smiles, joy and childhoods to hurting little hearts in Uganda.</p>
+          <p>Too many children in Uganda have been abused, abandoned and forgotten.</p>
+          <p>Our heart as a family charity is devoted to reaching as many of these children as possible.  We want them know that they are not forgotten, that we love them and that they matter.</p>
+          <p>The children we care for have experienced horrible childhood traumas that no child should ever have to suffer.</p>
+          <p>Ugandan children deserve a safe, happy childhood.</p>
         </div>
       </div>
       <div class="spacer"></div>

@@ -48,21 +48,24 @@ a:hover {
 	-o-box-shadow:0 5px 5px rgba(0, 0, 0, 0.2);*/
 }
 
-#logo{
+#logo_container{
 	float:left;
-	height:5em;
 }
 
 svg#logo{
-
-}
-
-svg#logo:hover #letter{
-	fill:#FFF;
+	height:10em;
+	transition:all 0.25s linear 0s;
+	-moz-transition:all 0.25s linear 0s;
+	-webkit-transition:all 0.25s linear 0s;
+	-o-transition:all 0.25s linear 0s;
 }
 
 svg#logo:hover #heart{
-	fill:#FFF;
+	fill:#F00;
+}
+
+svg#logo:hover #letter{
+	fill:#FBAE17;
 }
 
 svg#logo #heart{
@@ -70,7 +73,7 @@ svg#logo #heart{
 }
 
 svg#logo #letter{
-	fill:#FBAE17;
+	fill:#FFF;
 }
 
 #menu{
@@ -105,11 +108,11 @@ svg#mobile_menu_icon{
 	height:5em;
 	width:2em;
 	padding:0 1em;
-	fill:#FBAE17;
+	fill:#FFF;
 }
 
 svg#mobile_menu_icon:hover{
-	fill:#FFF;
+	fill:#FBAE17;
 }
 
 #mobile_menu{
@@ -1365,7 +1368,7 @@ svg#cancel{
 
 .section_banner_bg{
 	padding:2.5em 0;
-	background:#FFF;
+	background:#555;
 	position:fixed;
 	width:100%;
 	z-index:0;
