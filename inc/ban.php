@@ -10,7 +10,6 @@
               <li><a href="./#involve">GET INVOLVED</a></li>
               <li><a href="./#projects">PROJECTS</a></li>
               <li><a href="./staff">ABOUT</a></li>
-              <li><a href="./#contact">CONTACT</a></li>
             </ul>
         </nav>
         <!--Begin Mobile Menu-->
@@ -23,7 +22,6 @@
                   <li><a href="./#projects">PROJECTS</a></li>
                   <li><a href="./#donate">DONATE</a></li>
                   <li><a href="./staff">ABOUT</a></li>
-                  <li><a href="./#contact">CONTACT</a></li>
                 </ul>
                 <div class="spacer"></div>
             </div>

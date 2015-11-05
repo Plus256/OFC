@@ -11,7 +11,6 @@
 						<a href="./#projects" id="projects_fot_link">Projects</a>
             <a href="./#donate" id="donate_fot_link">Donate</a>
 						<a href="./#about" id="about_fot_link">About</a>
-						<a href="./#contact" id="contact_fot_link">Contact</a>
             <div class="spacer"></div>
         </div>
         <div id="copyright">Copyright &copy; <?php echo date('Y')." <a href='./'>".$full_name."</a>"; ?></div>

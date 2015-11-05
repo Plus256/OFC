@@ -1296,25 +1296,6 @@ a.project_item p{
 	height:auto;
 }
 
-#play{
-	background:#F5F5F5;
-}
-
-#play_thumb{
-	float:left;
-	width:50%;
-}
-
-#play_thumb img{
-	display:block;
-	width:100%;
-}
-
-#play_text, #about_text, #involve_text{
-	padding:3em 5em;
-	overflow:hidden;
-}
-
 .section_text_header{
 	font-size:300%;
 	font-weight:200;
@@ -1405,4 +1386,23 @@ svg#cancel{
 	font-size:250%;
 	font-weight:200;
 	color:#555;
+}
+
+#play{
+	background:#F5F5F5;
+}
+
+#play_thumb{
+	float:left;
+	width:50%;
+}
+
+#play_thumb img{
+	display:block;
+	width:100%;
+}
+
+#play_text, #about_text, #involve_text{
+	padding:3em 5em;
+	overflow:hidden;
 }
